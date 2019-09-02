@@ -1,0 +1,32 @@
+{
+  "name": "contact-keeper-mern-app",
+  "version": "1.0.0",
+  "description": "A Full-Stack MERN application that allows you to manage all your contacts. Uses secure authentication using JSON web authentication protocols. I created my own API using Express.js, Node.js and MongoDB in order to store all contact information including associations. For the front-end I used React.js (Using hooks and the context API) to build the client interface.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul-Vig/Contact-Keeper-MERN-App.git"
+  },
+  "author": "Rahul Vig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahul-Vig/Contact-Keeper-MERN-App/issues"
+  },
+  "homepage": "https://github.com/Rahul-Vig/Contact-Keeper-MERN-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.1"
+  }
+}
