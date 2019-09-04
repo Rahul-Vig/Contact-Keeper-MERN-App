@@ -1,8 +1,8 @@
 //Entry-point to backend.
 const express = require("express"); //common js, need to implement babel or typescript for import
 const connectDB = require("./config/db");
-const app = express();
 const path = require("path");
+const app = express();
 
 connectDB();
 
