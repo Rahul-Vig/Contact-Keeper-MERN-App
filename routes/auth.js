@@ -41,7 +41,7 @@ router.post(
     try {
       let user = await User.findOne({ email });
       if (!user) {
-        return res.status(400).json({ msg: "Invalid credentials" });
+        return res.status(400).json({ msg: "Invalid Credentials" });
       }
 
       //unhash password with bcrypt and see if there is a match
